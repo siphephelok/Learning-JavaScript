@@ -4,8 +4,8 @@ var age = 11
 var isFemale = true
 var balance = 100.32
 var dob = new Date(2023, 8, 9)
-console.log(firstName)
-console.log(age)
-console.log(isFemale)
-console.log(balance)
-console.log(dob)
+console.log(typeof firstName)
+console.log(typeof age)
+console.log(typeof isFemale)
+console.log(typeof balance)
+console.log(typeof dob)
