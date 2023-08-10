@@ -2,3 +2,4 @@
 
 var jobTitle = "Software Developer"
 console.log(typeof jobTitle)
+console.log(jobTitle.toUpperCase()) //Changing string to uppercase
