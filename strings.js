@@ -19,3 +19,5 @@ var person = {
 console.log(person)
 console.log(person.firstName)
 console.log(person.address.city)
+console.log(Object.values(person)) //For keys
+console.log(Object.keys(person)) // For values
