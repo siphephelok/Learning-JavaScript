@@ -1,13 +1,7 @@
-//Strings is a datatype that allows you to store a sequence of characters
+//Objects is a collection of properties, each property has a value
 
 var jobTitle = "Software Developer"
-console.log(typeof jobTitle)
-console.log(jobTitle.toUpperCase()) //Changing string to uppercase
-console.log(jobTitle.substring(0, 7)) //For substring
+var age = 15
+var isMale = true
+var person = {} //This is an empty object
 
-//Concatenate
-
-var a = 'Software'
-var b = 'Developer'
-console.log(a + " " + b) // using plus sign
-console.log(`${a}$ ${b.toUpperCase()}`) //using dollar sign
